@@ -24,7 +24,18 @@ VISITANTES DESDE 2009: 000017
 </p>
 
 </div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const contenedor = document.querySelector("#transmision1 .contenido-transmision");
 
+    const gif = document.createElement("img");
+    gif.src = "imagenes/transmision1.gif"; // cambia la ruta si es diferente
+    gif.alt = "Señal inestable";
+    gif.classList.add("gif-transmision");
+
+    contenedor.appendChild(gif);
+});
+</script>
 </body>
 </html>
 
